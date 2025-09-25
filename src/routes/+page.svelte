@@ -32,31 +32,30 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Sarah Johnson",
+			name: "Marcus Chen",
 			position: "Product Manager",
-			company: "Future Systems",
+			company: "Velocity Labs",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We cut our design-to-dev handoff time from 3 weeks to 3 days. Their seamless workflow eliminated the constant back-and-forth between our design and engineering teams, letting us ship features 10x faster.",
+			image: "/generated/image-editorial-documentary-style-environmenta.webp"
+		},
+		{
+			name: "Priya Sharma",
+			position: "Engineering Director",
+			company: "Scale Dynamics",
+			quote:
+				"They eliminated 90% of our technical debt from design inconsistencies. What used to cost us $50K in rework each quarter now runs smoothly with pixel-perfect implementations that our users actually love.",
+			image: "/generated/image-editorial-environmental-portrait-of-priy.webp"
+		},
+		{
+			name: "David Rodriguez",
+			position: "Founder & CEO",
+			company: "Growth Engine",
+			quote:
+				"Our conversion rate jumped 40% after they rebuilt our user experience. Instead of spending months debugging design-engineering misalignments, we're focusing on what matters: growing our business.",
+			image: "/generated/image-editorial-portrait-of-david-rodriguez-la.webp"
 		}
 	]}
 />
