@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Bridge design and engineering. Faster."
+	subtitle="Ship better product experiences. Without the handoff pain."
+	imageSrc="/generated/image-editorial-style-photograph-of-a-product-.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders" 
+	logoUrls={[
+		'https://cdn.brandfetch.io/notion.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/vercel.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/airbnb.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/dropbox.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
