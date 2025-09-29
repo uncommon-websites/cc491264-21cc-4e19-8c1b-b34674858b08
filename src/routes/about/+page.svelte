@@ -26,10 +26,9 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Design meets execution"
+	subtitle="Where vision becomes real"
+	imageSrc="/generated/image-editorial-style-workspace-scene-featurin.webp"
 />
 
 <!-- Story Section -->
