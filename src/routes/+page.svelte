@@ -26,60 +26,66 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Design that ships"
+	text="We help product teams turn their design vision into production-ready features—fast. No translation layers. No endless back-and-forth. Just clean implementation that brings user-centered experiences to life without the usual bottlenecks."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Carmen Rodriguez",
+			position: "VP of Product",
+			company: "Velocity Labs",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We shipped 40% faster by eliminating the handoff chaos between design and engineering. What used to take 3 weeks of back-and-forth now happens in 5 days with zero miscommunication.",
+			image: "/generated/image-editorial-style-environmental-portrait-o.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Williams",
+			position: "Engineering Director",
+			company: "Scale Dynamics",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Our development velocity doubled overnight. The seamless design-to-code workflow saved us 60 hours per sprint and eliminated those costly revision cycles that were killing our timeline.",
+			image: "/generated/image-editorial-documentary-portrait-of-a-conf.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Priya Chen",
+			position: "Founder & CEO",
+			company: "NextGen Solutions",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We cut our product development costs by 45% while delivering experiences our users actually love. No more expensive design revisions or engineering rework - just beautiful products that ship on time.",
+			image: "/generated/image-environmental-headshot-of-a-confident-as.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Bridge the gap between vision and reality"
+	subtitle="Transform design concepts into production-ready code without losing fidelity or wasting time on handoffs"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Design-to-code translation",
+			description: "Convert Figma designs directly into pixel-perfect, production-ready components. Eliminate the 40% time waste from design-engineering miscommunication."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Real-time collaboration sync",
+			description: "Keep designers and developers aligned with live updates, shared component libraries, and instant feedback loops that prevent costly iterations."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Technical feasibility validation",
+			description: "Validate design concepts against engineering constraints before development begins, saving weeks of rework and ensuring realistic timelines."
+		},
+		{
+			title: "Rapid interactive prototyping",
+			description: "Build functional prototypes that behave like real products, enabling user testing and stakeholder buy-in before full development investment."
+		},
+		{
+			title: "Component library synchronization",
+			description: "Maintain perfect consistency between design systems and code components with automated sync that prevents design drift over time."
+		},
+		{
+			title: "Performance-optimized delivery",
+			description: "Ship code that's not just visually accurate but also fast, accessible, and scalable—meeting both design standards and engineering best practices."
 		}
 	]}
 />
