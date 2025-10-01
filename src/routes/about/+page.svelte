@@ -3,7 +3,6 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 
 	// Icons
-	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
 	import Story from "./Story.svelte";
 	import SecondaryHero from "$lib/components/layout/hero-sections/SecondaryHero.svelte";
 	import Culture from "$lib/components/layout/Culture.svelte";
@@ -11,94 +10,45 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Design-first thinking",
+			description: "Every solution starts with understanding the user experience, then building the technology to deliver it flawlessly."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Seamless collaboration",
+			description: "Breaking down silos between design and engineering to create products that work as beautifully as they look."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Speed without compromise",
+			description: "Helping teams ship user-centered features faster while maintaining the highest standards of quality and craftsmanship."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Design meets execution"
+	subtitle="Where vision becomes real"
+	imageSrc="/generated/image-editorial-style-workspace-scene-featurin.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We transform design workflows into seamless product experiences by combining design expertise with full-stack engineering capabilities. Our approach bridges the gap between creative vision and technical execution.",
+		"Starting with design-heavy startups, we've captured a significant portion of the product design market by focusing on what matters most: helping teams ship user-centered features faster and more efficiently.",
+		"We understand that product managers at growing startups spend too much time translating between design and engineering teams. That's exactly the problem we solve through our integrated approach.",
+		"Our mission is simple yet powerful: eliminate the handoff gaps that slow down product development. When design and engineering work as one unified process, innovation accelerates and products succeed."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<!-- StakeholderGrid Section -->
-<StakeholderGrid
-	generating
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<!-- Team and investor sections removed - no founder/team/investor information available in company context -->
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Design that ships"
+	subtitle="Bridge the gap between design and engineering"
+	description="Stop losing 40% of your time in handoffs. Our hybrid design-engineering teams turn your vision into production-ready features—fast, without the usual bottlenecks."
+	imageSrc="/generated/image-a-product-manager-and-a-small-group-of-d.webp"
 />

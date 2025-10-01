@@ -33,6 +33,7 @@
 <Testimonials
 	testimonials={[
 		{
+<<<<<<< HEAD
 			name: "Carmen Rodriguez",
 			position: "VP of Product",
 			company: "Velocity Labs",
@@ -55,6 +56,30 @@
 			quote:
 				"We cut our product development costs by 45% while delivering experiences our users actually love. No more expensive design revisions or engineering rework - just beautiful products that ship on time.",
 			image: "/generated/image-environmental-headshot-of-a-confident-as.webp"
+=======
+			name: "Marcus Chen",
+			position: "Product Manager",
+			company: "Velocity Labs",
+			quote:
+				"We cut our design-to-dev handoff time from 3 weeks to 3 days. Their seamless workflow eliminated the constant back-and-forth between our design and engineering teams, letting us ship features 10x faster.",
+			image: "/generated/image-editorial-documentary-style-environmenta.webp"
+		},
+		{
+			name: "Priya Sharma",
+			position: "Engineering Director",
+			company: "Scale Dynamics",
+			quote:
+				"They eliminated 90% of our technical debt from design inconsistencies. What used to cost us $50K in rework each quarter now runs smoothly with pixel-perfect implementations that our users actually love.",
+			image: "/generated/image-editorial-environmental-portrait-of-priy.webp"
+		},
+		{
+			name: "David Rodriguez",
+			position: "Founder & CEO",
+			company: "Growth Engine",
+			quote:
+				"Our conversion rate jumped 40% after they rebuilt our user experience. Instead of spending months debugging design-engineering misalignments, we're focusing on what matters: growing our business.",
+			image: "/generated/image-editorial-portrait-of-david-rodriguez-la.webp"
+>>>>>>> 0ffa0a1c4bf854007f88b6f2827dedd2d97d56d0
 		}
 	]}
 />

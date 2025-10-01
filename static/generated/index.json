@@ -4,6 +4,7 @@
     "filename": "/generated/image-editorial-style-photograph-of-a-product-.webp"
   },
   {
+<<<<<<< HEAD
     "prompt": "Editorial-style environmental portrait of a confident Latina product manager in a contemporary office. She stands with purposeful posture, framed by clean architectural lines and natural daylight from large windows. Cool, neutral tones dominate the space, with subtle warm highlights on her face and hands. The background shows hints of collaboration—colleagues in soft focus, analog tools like notebooks or pens on a nearby table. The scene feels calm, sophisticated, and focused, with generous negative space and layered depth, evoking trust and forward momentum.",
     "filename": "/generated/image-editorial-style-environmental-portrait-o.webp"
   },
@@ -14,5 +15,25 @@
   {
     "prompt": "Environmental headshot of a confident Asian female startup founder in a light-filled, contemporary workspace. She is captured mid-discussion, with expressive hands and attentive posture, framed by open architectural elements. The setting features cool, neutral hues with touches of warmth illuminating her face and hands. Soft shadows and morning-quality light evoke clarity and momentum. In the background, out-of-focus team members interact over physical materials, reinforcing a human, partnership-driven atmosphere. The overall mood is sophisticated, approachable, and dynamic.",
     "filename": "/generated/image-environmental-headshot-of-a-confident-as.webp"
+=======
+    "prompt": "Editorial documentary-style environmental portrait of Marcus Chen, Asian male product manager in his 30s, confident smile, captured in a modern, architecturally structured office space. Cool-neutral tones dominate the scene, with soft morning light casting gentle shadows and subtle warm highlights on Marcus. He stands in a workspace featuring generous negative space, glass walls, and purposeful lines suggesting connection and flow. The composition frames Marcus at a visual intersection, with background elements subtly implying collaboration and forward momentum. The mood is professional, approachable, and grounded, evoking trust and confident action.",
+    "filename": "/generated/image-editorial-documentary-style-environmenta.webp"
+  },
+  {
+    "prompt": "Editorial environmental portrait of Priya Sharma, Indian female engineering director in her mid-30s, approachable and confident, set in a spacious, sophisticated office environment. The shot uses cool base tones with warm highlights on Priya, natural directional light, and soft shadows to create depth. Priya is positioned near architectural features—such as a window or glass partition—that suggest transition and connection. The background includes subtle signs of team collaboration at a distance, maintaining focus on Priya while hinting at dynamic workplace energy. The overall mood is professional, consultative, and inspiring, with a sense of purposeful movement.",
+    "filename": "/generated/image-editorial-environmental-portrait-of-priy.webp"
+  },
+  {
+    "prompt": "Editorial portrait of David Rodriguez, Latino male startup founder in his early 30s, determined and focused, standing within a contemporary open workspace. The environment features clean lines, cool-neutral colors with strategic warm highlights on David, and layered depth with architectural elements suggesting bridges and pathways. David’s posture and expression convey momentum and quiet confidence. The composition includes generous negative space and subtle background activity, reinforcing an atmosphere of progress, trust, and real-world expertise.",
+    "filename": "/generated/image-editorial-portrait-of-david-rodriguez-la.webp"
+  },
+  {
+    "prompt": "Editorial-style workspace scene featuring a diverse group of designers and developers collaborating around a large, sunlit table in a modern office. The environment is structured with architectural lines and soft, natural light streaming through tall windows. Cool, desaturated tones dominate the space, with subtle warm highlights on the people and interaction points. Gestures of explanation and agreement are visible, showing focused, purposeful action. Hands are at work with analog tools—sketches, notebooks, and physical models—while environmental context and negative space convey openness and momentum. The composition uses depth of field and layered planes to emphasize connection and flow, capturing authentic, documentary moments of professional partnership.",
+    "filename": "/generated/image-editorial-style-workspace-scene-featurin.webp"
+  },
+  {
+    "prompt": "A product manager and a small group of developers stand together in a bright, modern office space, reviewing physical design printouts and sketches laid out on a large table. The group is diverse, dressed in professional yet approachable attire, engaged in focused conversation with gestures of explanation and agreement. The environment features clean architectural lines and generous negative space, with cool, natural daylight streaming through large windows. Subtle warm highlights draw attention to the collaborators’ faces and hands, suggesting trust and momentum. The composition uses layered depth, with the team positioned at the intersection of architectural elements, creating a visual bridge between them. The mood conveys confident momentum and purposeful action, with body language showing forward movement and subtle satisfaction. No screens, text, or digital devices are visible—only people, analog tools, and the structured workspace.",
+    "filename": "/generated/image-a-product-manager-and-a-small-group-of-d.webp"
+>>>>>>> 0ffa0a1c4bf854007f88b6f2827dedd2d97d56d0
   }
 ]
