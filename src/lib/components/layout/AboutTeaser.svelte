@@ -23,7 +23,7 @@ A minimalist teaser for the about page.
 	const teamMember: TeamMember = {
 		name: "Alex Morgan",
 		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		image: "/generated/image-a-professional-founder-in-a-modern-offic.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"After watching developer teams struggle with AI agents they couldn't trust, I knew we had to build something different. Every company wants AI that works—but they need AI they can actually trust. That's why we raised $13M and built Inkeep from the ground up to put control back in the hands of the people who need it most."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
