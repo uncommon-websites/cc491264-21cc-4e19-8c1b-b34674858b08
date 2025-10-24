@@ -6,25 +6,57 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	centered={true}
+	title="AI agents you can trust"
+	subtitle="Build powerful AI agents that automate customer support and internal workflows with no-code visual builder. Trusted by leading developer teams."
+	customers={[
+		{
+			name: "Sarah Chen",
+			position: "Head of Developer Relations",
+			imageSrc: "/generated/image-editorial-style-portrait-of-a-profession.webp"
+		},
+		{
+			name: "Marcus Rodriguez",
+			position: "Product Manager",
+			imageSrc: "/generated/image-editorial-environmental-portrait-of-a-pr.webp"
+		},
+		{
+			name: "Emily Thompson",
+			position: "Engineering Director",
+			imageSrc: "/generated/image-sophisticated-environmental-portrait-of-.webp"
+		},
+		{
+			name: "David Park",
+			position: "Technical Lead",
+			imageSrc: "/generated/image-editorial-portrait-of-a-professional-man.webp"
+		},
+		{
+			name: "Rachel Foster",
+			position: "Support Team Lead",
+			imageSrc: "/generated/image-environmental-portrait-of-a-professional.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/anthropic.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/midjourney.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/pinecone.io/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/postman.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
-	generating
 	title="What we do"
 	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
 			name: "Jane Smith",
@@ -54,7 +86,6 @@
 />
 
 <Features
-	generating
 	title="Features"
 	subtitle="Some features"
 	features={[
@@ -75,5 +106,5 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction />
