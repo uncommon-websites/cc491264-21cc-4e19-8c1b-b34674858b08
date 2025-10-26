@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={true}
+	title="Build trusted AI agents that automate customer support"
+	subtitle="Give your product team complete control over AI accuracy with intelligent audit trails and a no-code visual builder."
+	imageSrc="/generated/image-editorial-style-photograph-of-a-confiden.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders" 
+	logoUrls={[
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/github.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/twilio.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/shopify.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
